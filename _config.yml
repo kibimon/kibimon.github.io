@@ -1,0 +1,6 @@
+title : MonStrPub
+repository : kibimon/kibimon.github.io
+kramdown:
+  toc_levels: 2..4
+  gfm_quirks: no_auto_typographic
+  smart_quotes: apos,apos,quot,quot

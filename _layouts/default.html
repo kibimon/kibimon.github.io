@@ -1,0 +1,18 @@
+<!doctype html>{% assign lang = page.lang | default: site.lang | default: "en" %}
+<html lang="{{ lang }}">
+
+<title>{% if page.title %}{{ page.title | strip_html }} | {% endif %}{{ site.title | default: site.github.repository_name | strip_html }}{% if site.github.owner_name %} ({{ site.github.owner_name }}){% endif %}</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://www.monstr.pub/src/style.css">
+
+<header id="page-header">
+    <span id="page-project">{% if site.github.owner_name %}
+        <a href="/">{{ site.github.owner_name }}</a> :{% endif %}
+        <a id="page-site" href="{{ "/" | relative_url }}">{{ site.title | default: site.github.repository_name }}</a>
+    </span>{% if site.github.repository_url %}
+    <nav id="page-links">
+        <a title="{% if site.github.project_tagline %}{{ site.github.repository_name }} | {% endif %}GitHub" href="{{ site.github.repository_url }}">View source</a>
+    </nav>{% endif %}
+</header>
+
+{{ content }}
