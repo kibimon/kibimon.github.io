@@ -7,10 +7,11 @@ Well, it depends on what you're hoping to accomplish…
 + Table of Contents
 {:toc #toc}
 
-<aside markdown="block">
+<div role="note" markdown="block">
+**Note:**
 It is generally expected that everyone contributing to MonStrPub be available for communication via the ActivityPub protocol.
 MonStrPub is an ActivityPub extension, so you should not contribute to a MonStrPub project if you have an aversion to ActivityPub software.
-</aside>
+</div>
 
 ##  I want to build my own implementation.  {#impl}
 

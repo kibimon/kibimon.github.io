@@ -64,7 +64,7 @@ Open Source
 License
 : AGPLv3
 
-Programming Language
+Programming Language(s)
 : Elixir, JavaScript
 
 
